@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_Home</title>
+    <link rel="icon" type="image/jpg" href="images/favicon/anonym.png">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/7e7fbcbb5a.js" crossorigin="anonymous"></script>
+    <!--Fichier CSS-->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-uppercase text-light mx-4" href="index.html">John Doe</a>
+                    <button class="navbar-toggler font-weight-bold  rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav text-uppercase mx-4">
+                        <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-light" href="pages/services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-light" href="pages/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-light" href="pages/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-light" href="pages/mentions-legales.html">Mentions légales</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content bg-dark border border-secondary text-light">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Mon profil GitHub</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row justify-content-evenly my-3">
+                                    <div class="col-md-6 my-2">
+                                    <img class="img-fluid" src="images/modal/19842736.png" alt="avatar">
+                                    </div>
+                                    <div class="col-md-6 my-2" >
+                                        <p><i class="fa-solid fa-user text-light pe-2"></i><a target="_blank" href="https://github.com/github-john-doe"> John Doe</a></p>
+                                        <hr>
+                                        <i class="fa-solid fa-location-dot text-light pe-2"></i>
+                                        <hr>
+                                        <p><i class="fa-solid fa-comment text-light pe-2"></i> As we all know, John Doe's indentity is unknow. I just wanted to contribute without being unknown</p> 
+                                        <hr>
+                                        <p><i class="fa-solid fa-box-archive pe-2"></i> Repositories : 1</p> 
+                                        <hr>
+                                        <p><i class="fa-solid fa-user-group text-light pe-2"></i> Followers : 16</p> 
+                                        <hr>
+                                        <p><i class="fa-solid fa-user-group text-light pe-2"></i> Following : 0</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="container text-center text-light"></div>
+                <h1 class="text-light text-center">Bonjour, je suis John Doe</h1>
+                <h2 class="text-light text-center">Développeur web full stack</h2>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger m-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                En savoir plus
+                </button>
+            </div>
+            <section class="container col-md-8 shadow my-4 ">
+                <div class="row justify-content-center mx-1">
+                    <div class="col-md-6 my-2">
+                        <h3 class="border-bottom border-primary border-4 my-2 py-3">A propos</h3>
+                        <img class="img-fluid py-2" src="images/john-doe-about.jpg" alt="John Doe, développeur web full stack">
+                        <article>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid possimus sit, aliquam vel tempore veritatis dicta eum nulla facilis.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid possimus sit, aliquam vel tempore veritatis dicta eum nulla facilis.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid possimus sit, aliquam vel tempore veritatis dicta eum nulla facilis.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-6 my-2 pb-2">
+                        <h3 class="border-bottom border-primary border-4 my-2 py-3">Mes compétences</h3>
+                        <h5 class="py-2">HTML5 90%</h5>
+                        <div class="progress my-1" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 90%"></div>
+                        </div>
+                        <h5 class="py-2">CSS3 80%</h5>
+                        <div class="progress my-1" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-info" style="width: 80%"></div>
+                        </div>
+                        <h5 class="py-2">JAVASCRIPT 70%</h5>
+                        <div class="progress my-1" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-warning" style="width: 70%"></div>
+                        </div>
+                        <h5 class="py-2">PHP 60%</h5>
+                        <div class="progress my-1" role="progressbar" aria-label="Basic example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-success" style="width: 60%"></div>
+                        </div>
+                        <h5 class="py-2">REACT 50%</h5>
+                        <div class="progress my-1" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg primary" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-dark text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 pt-4 px-4">
+                        <h4>John Doe</h4>
+                        <ul class="linkFooter socialIcon list-unstyled">
+                            <li><a target="_blank" href="https://www.google.com/maps/place/40+Rue+Laure+Diebold,+69009+Lyon/@45.778662,4.796404,17z/data=!3m1!4b1!4m6!3m5!1s0x47f4eb65edac5b3f:0xe01c47049cb2e2b9!8m2!3d45.778662!4d4.7989789!16s%2Fg%2F11c24790th?hl=fr&entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D" class="text-decoration-none text-white">40 rue Laure Diebold</a></li>
+                            <li><a target="_blank" href="https://www.google.com/maps/place/40+Rue+Laure+Diebold,+69009+Lyon/@45.778662,4.796404,17z/data=!3m1!4b1!4m6!3m5!1s0x47f4eb65edac5b3f:0xe01c47049cb2e2b9!8m2!3d45.778662!4d4.7989789!16s%2Fg%2F11c24790th?hl=fr&entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D" class="text-decoration-none text-white">69009 Lyon, France</a></li>
+                            <li><a target="_blank" href="mailto:john.doe@gmail.com" class="text-decoration-none text-white">10 20 30 40 50</a></li>
+                            <li><a target="_blank" href="tel:1020304050" class="text-decoration-none text-white">john.doe@gmail.com</a></li>
+                        </ul>
+                        <div class="col">
+                            <a href="https://github.com/" class="text-secondary"><i class="socialIcon fa-brands fa-github fs-2"></i></a>
+                            <a href="https://x.com/" class="text-secondary"><i class="socialIcon  mx-1 fa-brands fa-x-twitter fs-2 ms-2"></i></a>
+                            <a href="https://fr.linkedin.com/" class="text-secondary"><i class="socialIcon  mx-1 fa-brands fa-linkedin fs-2 ms-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pt-4 px-4">
+                        <h4>Liens utiles</h4>
+                        <ul class="linkFooter socialIcon list-unstyled">
+                            <li><a href="index.html" class="text-decoration-none text-white">Acceuil</a></li>
+                            <li><a href="./pages/services.html" class="text-decoration-none text-white">Services</a></li>
+                            <li><a href="./pages/portfolio.html" class="text-decoration-none text-white">Portfolio</a></li>
+                            <li><a href="./pages/contact.html" class="text-decoration-none text-white">Me contacter</a></li>
+                            <li><a href="./pages/mentions-legales.html" class="text-decoration-none text-white">Mentions légales</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 py-4 px-4">
+                        <h4>Mes dernières réalisations</h4>
+                        <ul class="linkFooter socialIcon list-unstyled">
+                            <li><a href="#" class="text-decoration-none text-white">Fresh Food</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Restaurant Akira</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Espace bien-être</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">SEO</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Création d'une API</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Maquette d'un site</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="src/App.js"></script>
+</body>
+</html>

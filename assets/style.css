@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+.navbar-nav li a:focus {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navbar-nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.linkFooter {
+    font-weight: 300;
+}
+
+.linkFooter a:hover {
+    font-weight: bold;
+}
+ .slider {
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+ }
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.socialIcon:hover {
+    color: white;
+}
+
+.btn-close {
+    color: #efefef;
+}
